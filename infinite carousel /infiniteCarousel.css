@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  user-select: none;
+  background: #717171;
+  margin-top: 200px;
+}
+.ad {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: sandybrown;
+  overflow: hidden;
+}
+.ad-item-container {
+  display: flex;
+  width: 3500px;
+  height: 100%;
+  background-color: #ddd;
+}
+.ad-item {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-item span {
+  font-size: 150px;
+  font-weight: 600;
+}
+.ad-control {
+  width: 40px;
+  padding: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 35px;
+  color: #fff;
+  outline: none;
+}
+.prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.box1{
+  background-color: tomato;
+}
+.box2{
+  background-color: purple;
+}
+.box3{
+  background-color: violet;
+}
+.box4{
+  background-color: pink;
+}
+.box5{
+  background-color: skyblue;
+}
